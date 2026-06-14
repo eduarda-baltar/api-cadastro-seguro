@@ -22,7 +22,7 @@ Projeto prático desenvolvido para aplicar conceitos essenciais de **Desenvolvim
 --- 
 
 # Crie a tabela no MySQL:
-    ```SQL
+```SQL
 CREATE DATABASE sistema_seguro;
 USE sistema_seguro;
 CREATE TABLE usuarios (
@@ -30,7 +30,7 @@ CREATE TABLE usuarios (
     email VARCHAR(255) NOT NULL UNIQUE,
     senha VARCHAR(255) NOT NULL
 );
-    ```
+```
 ---
 
 ## Configure o arquivo .env na raiz:
