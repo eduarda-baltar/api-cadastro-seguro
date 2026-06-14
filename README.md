@@ -22,7 +22,7 @@ Projeto prático desenvolvido para aplicar conceitos essenciais de **Desenvolvim
 --- 
 
 # Crie a tabela no MySQL:
-
+    ```SQL
 CREATE DATABASE sistema_seguro;
 USE sistema_seguro;
 CREATE TABLE usuarios (
@@ -30,21 +30,21 @@ CREATE TABLE usuarios (
     email VARCHAR(255) NOT NULL UNIQUE,
     senha VARCHAR(255) NOT NULL
 );
-
+    ```
 ---
 
 ## Configure o arquivo .env na raiz:
-
+```Snippet de código
 PORT=3000
 DB_HOST=localhost
 DB_USER=root
 DB_PASSWORD=SUA_SENHA_DO_MYSQL
 DB_NAME=sistema_seguro
-
+```
 ---
 
 ## Inicie o servidor:
-
+```bash
 node index.js
-
+```
 ---
