@@ -1,0 +1,17 @@
+POST http://localhost:3000/cadastro
+Content-Type: application/json
+
+{
+    "email": "jogador@email.com",
+    "senha": "SenhaDoJogador123"
+}
+
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "email": "jogador@email.com",
+    "senha": "SenhaDoJogador123"
+}
